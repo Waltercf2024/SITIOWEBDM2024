@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+h1 {
+	text-align: center;
+	background-color: black; 
+	color: white;
+	padding: 20px;
+}
+nav ul {
+	background-color: #656B83;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	display: inline-flex;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover {
+	background-color: black;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.contenido {
+	display: flex;
+	margin: 60px;
+}
+.articulos {
+	width: 80%;
+}
+.secciones {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
